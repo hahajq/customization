@@ -1,0 +1,9 @@
+
+$(function(){
+	var url = "";
+	$("#sidebar-menu").delegate("a", "click", function() {
+		$("#panelPage").empty();
+		url = $(this).attr("id") + ".htm";
+		$("#panelPage").append("<iframe id='mainFrame' src='" + url + "' style='border: 0px;width: 90%; height:800px;'></iframe>");		
+	});
+});

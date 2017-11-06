@@ -1684,7 +1684,6 @@ div[data-role="editor-toolbar"] {
 }
 /*-----	map-----*/
 
-
 .gmap iframe{
 	width: 100%;
 	margin: 0px;
@@ -4488,7 +4487,6 @@ table.sliders tr td {
 /*ck editor*/
 
 .cke_top, .cke_bottom {
-    background: #F5F5F5 !important;
 
     box-shadow: none;
     padding: 6px 8px 2px;
